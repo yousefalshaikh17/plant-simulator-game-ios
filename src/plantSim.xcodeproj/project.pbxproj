@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1417CE9B2A09A8CD007F441A /* GameFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417CE9A2A09A8CD007F441A /* GameFileManager.swift */; };
+		144831552A02106E005822FC /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 144831542A02106E005822FC /* play_button.png */; };
+		144831572A02107C005822FC /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 144831562A02107C005822FC /* pause_button.png */; };
+		1448315B2A021FBD005822FC /* retry_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1448315A2A021FBD005822FC /* retry_button.png */; };
+		1449EAED29FFD7E900BFBE3F /* planks_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1449EAEC29FFD7E900BFBE3F /* planks_background.png */; };
+		1449EAEF29FFF87C00BFBE3F /* faucet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1449EAEE29FFF87C00BFBE3F /* faucet.png */; };
+		1449EAF129FFF89E00BFBE3F /* Faucet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449EAF029FFF89E00BFBE3F /* Faucet.swift */; };
+		1449EAF329FFFC1300BFBE3F /* updated_watering_can.png in Resources */ = {isa = PBXBuildFile; fileRef = 1449EAF229FFFC1300BFBE3F /* updated_watering_can.png */; };
+		1449EAF52A000D5E00BFBE3F /* faucet_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1449EAF42A000D5E00BFBE3F /* faucet_button.png */; };
+		144D0FBB2A0356FF005DEDBE /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 144D0FBA2A0356FE005DEDBE /* wood.jpeg */; };
+		144D0FBE2A0361E5005DEDBE /* settings_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 144D0FBC2A0361E5005DEDBE /* settings_button.png */; };
+		144D0FBF2A0361E5005DEDBE /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 144D0FBD2A0361E5005DEDBE /* back_button.png */; };
+		144D0FC12A037919005DEDBE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D0FC02A037919005DEDBE /* SettingsViewController.swift */; };
+		14619DD329FEB433007BD9DE /* GameObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14619DD229FEB433007BD9DE /* GameObjects.swift */; };
+		14619DD529FEB58F007BD9DE /* watering_can.png in Resources */ = {isa = PBXBuildFile; fileRef = 14619DD429FEB58F007BD9DE /* watering_can.png */; };
+		14619DD729FEB905007BD9DE /* left_arrow_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 14619DD629FEB905007BD9DE /* left_arrow_button.png */; };
+		14619DD929FED578007BD9DE /* right_arrow_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 14619DD829FED578007BD9DE /* right_arrow_button.png */; };
+		14619DDD29FF1F1C007BD9DE /* WateringCan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14619DDC29FF1F1C007BD9DE /* WateringCan.swift */; };
+		149043DB2A05B23E00020B80 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149043DA2A05B23E00020B80 /* ScoreManager.swift */; };
+		149485812A00834500DA72E0 /* Pourable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149485802A00834500DA72E0 /* Pourable.swift */; };
+		149485832A0092AF00DA72E0 /* window_shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 149485822A0092AF00DA72E0 /* window_shelf.png */; };
+		149485852A00946800DA72E0 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149485842A00946800DA72E0 /* Plant.swift */; };
+		149485872A0094C500DA72E0 /* pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 149485862A0094C500DA72E0 /* pot.png */; };
+		149485892A00987B00DA72E0 /* plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 149485882A00987B00DA72E0 /* plant.png */; };
+		149AA52029FF3BEF00C397F1 /* water_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 149AA51F29FF3BEF00C397F1 /* water_button.png */; };
+		149AA52229FF3E1500C397F1 /* water_droplet.png in Resources */ = {isa = PBXBuildFile; fileRef = 149AA52129FF3E1500C397F1 /* water_droplet.png */; };
+		149AA52429FF3E5D00C397F1 /* WaterDroplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AA52329FF3E5D00C397F1 /* WaterDroplet.swift */; };
+		14D05B6B29DC6C40002A01A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D05B6A29DC6C40002A01A5 /* AppDelegate.swift */; };
+		14D05B6D29DC6C40002A01A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D05B6C29DC6C40002A01A5 /* SceneDelegate.swift */; };
+		14D05B7229DC6C40002A01A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D05B7029DC6C40002A01A5 /* Main.storyboard */; };
+		14D05B7429DC6C43002A01A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D05B7329DC6C43002A01A5 /* Assets.xcassets */; };
+		14D05B7729DC6C43002A01A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D05B7529DC6C43002A01A5 /* LaunchScreen.storyboard */; };
+		14D05B7F29DC74A3002A01A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D05B7E29DC74A3002A01A5 /* HomeViewController.swift */; };
+		14D05B8229DC9BA4002A01A5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D05B8129DC9BA4002A01A5 /* GameViewController.swift */; };
+		14D05B8429DC9CB8002A01A5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D05B8329DC9CB8002A01A5 /* GameScene.swift */; };
+		14D579CB2A02BB7800BC3DEC /* logo_expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D579CA2A02BB7800BC3DEC /* logo_expanded.png */; };
+		14D579CD2A02FB8800BC3DEC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D579CC2A02FB8800BC3DEC /* ResultsViewController.swift */; };
+		14D579CF2A03048100BC3DEC /* GameDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D579CE2A03048100BC3DEC /* GameDataModel.swift */; };
+		14EC9C7F2A01369900B970EF /* plant_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EC9C7E2A01369900B970EF /* plant_dead.png */; };
+		14EC9C812A013B4900B970EF /* GaugeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC9C802A013B4900B970EF /* GaugeNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1417CE9A2A09A8CD007F441A /* GameFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFileManager.swift; sourceTree = "<group>"; };
+		144831542A02106E005822FC /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		144831562A02107C005822FC /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		1448315A2A021FBD005822FC /* retry_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retry_button.png; path = "../../../../OneDrive - University of Salford/ThirdYear/pngs/retry_button.png"; sourceTree = "<group>"; };
+		1449EAEC29FFD7E900BFBE3F /* planks_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planks_background.png; sourceTree = "<group>"; };
+		1449EAEE29FFF87C00BFBE3F /* faucet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faucet.png; sourceTree = "<group>"; };
+		1449EAF029FFF89E00BFBE3F /* Faucet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faucet.swift; sourceTree = "<group>"; };
+		1449EAF229FFFC1300BFBE3F /* updated_watering_can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = updated_watering_can.png; sourceTree = "<group>"; };
+		1449EAF42A000D5E00BFBE3F /* faucet_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faucet_button.png; sourceTree = "<group>"; };
+		144D0FBA2A0356FE005DEDBE /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
+		144D0FBC2A0361E5005DEDBE /* settings_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_button.png; sourceTree = "<group>"; };
+		144D0FBD2A0361E5005DEDBE /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		144D0FC02A037919005DEDBE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		14619DD229FEB433007BD9DE /* GameObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObjects.swift; sourceTree = "<group>"; };
+		14619DD429FEB58F007BD9DE /* watering_can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watering_can.png; path = "../../../../OneDrive - University of Salford/ThirdYear/pngs/watering_can.png"; sourceTree = "<group>"; };
+		14619DD629FEB905007BD9DE /* left_arrow_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow_button.png; sourceTree = "<group>"; };
+		14619DD829FED578007BD9DE /* right_arrow_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right_arrow_button.png; path = "../../../../OneDrive - University of Salford/ThirdYear/pngs/right_arrow_button.png"; sourceTree = "<group>"; };
+		14619DDC29FF1F1C007BD9DE /* WateringCan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringCan.swift; sourceTree = "<group>"; };
+		149043DA2A05B23E00020B80 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
+		149485802A00834500DA72E0 /* Pourable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pourable.swift; sourceTree = "<group>"; };
+		149485822A0092AF00DA72E0 /* window_shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_shelf.png; sourceTree = "<group>"; };
+		149485842A00946800DA72E0 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		149485862A0094C500DA72E0 /* pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pot.png; sourceTree = "<group>"; };
+		149485882A00987B00DA72E0 /* plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plant.png; sourceTree = "<group>"; };
+		149AA51F29FF3BEF00C397F1 /* water_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_button.png; sourceTree = "<group>"; };
+		149AA52129FF3E1500C397F1 /* water_droplet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_droplet.png; sourceTree = "<group>"; };
+		149AA52329FF3E5D00C397F1 /* WaterDroplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDroplet.swift; sourceTree = "<group>"; };
+		14D05B6729DC6C40002A01A5 /* plantSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plantSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D05B6A29DC6C40002A01A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14D05B6C29DC6C40002A01A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14D05B7129DC6C40002A01A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14D05B7329DC6C43002A01A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D05B7629DC6C43002A01A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14D05B7829DC6C43002A01A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D05B7E29DC74A3002A01A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		14D05B8129DC9BA4002A01A5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		14D05B8329DC9CB8002A01A5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		14D579CA2A02BB7800BC3DEC /* logo_expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_expanded.png; sourceTree = "<group>"; };
+		14D579CC2A02FB8800BC3DEC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		14D579CE2A03048100BC3DEC /* GameDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataModel.swift; sourceTree = "<group>"; };
+		14EC9C7E2A01369900B970EF /* plant_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plant_dead.png; sourceTree = "<group>"; };
+		14EC9C802A013B4900B970EF /* GaugeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D05B6429DC6C40002A01A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D05B5E29DC6C40002A01A5 = {
+			isa = PBXGroup;
+			children = (
+				14D05B6929DC6C40002A01A5 /* plantSim */,
+				14D05B6829DC6C40002A01A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14D05B6829DC6C40002A01A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14D05B6729DC6C40002A01A5 /* plantSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D05B6929DC6C40002A01A5 /* plantSim */ = {
+			isa = PBXGroup;
+			children = (
+				14D05B8029DC99F3002A01A5 /* images */,
+				14D579CE2A03048100BC3DEC /* GameDataModel.swift */,
+				1417CE9A2A09A8CD007F441A /* GameFileManager.swift */,
+				14D579CC2A02FB8800BC3DEC /* ResultsViewController.swift */,
+				14D05B6A29DC6C40002A01A5 /* AppDelegate.swift */,
+				144D0FC02A037919005DEDBE /* SettingsViewController.swift */,
+				14D05B6C29DC6C40002A01A5 /* SceneDelegate.swift */,
+				14D05B7029DC6C40002A01A5 /* Main.storyboard */,
+				14D05B7329DC6C43002A01A5 /* Assets.xcassets */,
+				14D05B7529DC6C43002A01A5 /* LaunchScreen.storyboard */,
+				14D05B7829DC6C43002A01A5 /* Info.plist */,
+				14D05B8129DC9BA4002A01A5 /* GameViewController.swift */,
+				14D05B7E29DC74A3002A01A5 /* HomeViewController.swift */,
+				14D05B8329DC9CB8002A01A5 /* GameScene.swift */,
+				14619DD229FEB433007BD9DE /* GameObjects.swift */,
+				14619DDC29FF1F1C007BD9DE /* WateringCan.swift */,
+				149AA52329FF3E5D00C397F1 /* WaterDroplet.swift */,
+				1449EAF029FFF89E00BFBE3F /* Faucet.swift */,
+				149485802A00834500DA72E0 /* Pourable.swift */,
+				149485842A00946800DA72E0 /* Plant.swift */,
+				14EC9C802A013B4900B970EF /* GaugeNode.swift */,
+				149043DA2A05B23E00020B80 /* ScoreManager.swift */,
+			);
+			path = plantSim;
+			sourceTree = "<group>";
+		};
+		14D05B8029DC99F3002A01A5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				144D0FBA2A0356FE005DEDBE /* wood.jpeg */,
+				144D0FBD2A0361E5005DEDBE /* back_button.png */,
+				144D0FBC2A0361E5005DEDBE /* settings_button.png */,
+				144831542A02106E005822FC /* play_button.png */,
+				14D579CA2A02BB7800BC3DEC /* logo_expanded.png */,
+				144831562A02107C005822FC /* pause_button.png */,
+				14EC9C7E2A01369900B970EF /* plant_dead.png */,
+				149485882A00987B00DA72E0 /* plant.png */,
+				1448315A2A021FBD005822FC /* retry_button.png */,
+				149485862A0094C500DA72E0 /* pot.png */,
+				149485822A0092AF00DA72E0 /* window_shelf.png */,
+				1449EAF42A000D5E00BFBE3F /* faucet_button.png */,
+				1449EAF229FFFC1300BFBE3F /* updated_watering_can.png */,
+				1449EAEE29FFF87C00BFBE3F /* faucet.png */,
+				1449EAEC29FFD7E900BFBE3F /* planks_background.png */,
+				149AA52129FF3E1500C397F1 /* water_droplet.png */,
+				149AA51F29FF3BEF00C397F1 /* water_button.png */,
+				14619DD829FED578007BD9DE /* right_arrow_button.png */,
+				14619DD629FEB905007BD9DE /* left_arrow_button.png */,
+				14619DD429FEB58F007BD9DE /* watering_can.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14D05B6629DC6C40002A01A5 /* plantSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D05B7B29DC6C43002A01A5 /* Build configuration list for PBXNativeTarget "plantSim" */;
+			buildPhases = (
+				14D05B6329DC6C40002A01A5 /* Sources */,
+				14D05B6429DC6C40002A01A5 /* Frameworks */,
+				14D05B6529DC6C40002A01A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plantSim;
+			productName = plantSim;
+			productReference = 14D05B6729DC6C40002A01A5 /* plantSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14D05B5F29DC6C40002A01A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					14D05B6629DC6C40002A01A5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 14D05B6229DC6C40002A01A5 /* Build configuration list for PBXProject "plantSim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14D05B5E29DC6C40002A01A5;
+			productRefGroup = 14D05B6829DC6C40002A01A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D05B6629DC6C40002A01A5 /* plantSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D05B6529DC6C40002A01A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149AA52229FF3E1500C397F1 /* water_droplet.png in Resources */,
+				14619DD929FED578007BD9DE /* right_arrow_button.png in Resources */,
+				149485892A00987B00DA72E0 /* plant.png in Resources */,
+				1449EAED29FFD7E900BFBE3F /* planks_background.png in Resources */,
+				14D05B7729DC6C43002A01A5 /* LaunchScreen.storyboard in Resources */,
+				14D579CB2A02BB7800BC3DEC /* logo_expanded.png in Resources */,
+				14619DD729FEB905007BD9DE /* left_arrow_button.png in Resources */,
+				144D0FBB2A0356FF005DEDBE /* wood.jpeg in Resources */,
+				149AA52029FF3BEF00C397F1 /* water_button.png in Resources */,
+				1448315B2A021FBD005822FC /* retry_button.png in Resources */,
+				14619DD529FEB58F007BD9DE /* watering_can.png in Resources */,
+				1449EAF52A000D5E00BFBE3F /* faucet_button.png in Resources */,
+				1449EAEF29FFF87C00BFBE3F /* faucet.png in Resources */,
+				149485872A0094C500DA72E0 /* pot.png in Resources */,
+				144D0FBE2A0361E5005DEDBE /* settings_button.png in Resources */,
+				149485832A0092AF00DA72E0 /* window_shelf.png in Resources */,
+				14D05B7429DC6C43002A01A5 /* Assets.xcassets in Resources */,
+				144D0FBF2A0361E5005DEDBE /* back_button.png in Resources */,
+				14EC9C7F2A01369900B970EF /* plant_dead.png in Resources */,
+				144831572A02107C005822FC /* pause_button.png in Resources */,
+				1449EAF329FFFC1300BFBE3F /* updated_watering_can.png in Resources */,
+				14D05B7229DC6C40002A01A5 /* Main.storyboard in Resources */,
+				144831552A02106E005822FC /* play_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14D05B6329DC6C40002A01A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417CE9B2A09A8CD007F441A /* GameFileManager.swift in Sources */,
+				149485812A00834500DA72E0 /* Pourable.swift in Sources */,
+				149485852A00946800DA72E0 /* Plant.swift in Sources */,
+				14D579CF2A03048100BC3DEC /* GameDataModel.swift in Sources */,
+				14D05B8429DC9CB8002A01A5 /* GameScene.swift in Sources */,
+				14D579CD2A02FB8800BC3DEC /* ResultsViewController.swift in Sources */,
+				14D05B8229DC9BA4002A01A5 /* GameViewController.swift in Sources */,
+				14619DD329FEB433007BD9DE /* GameObjects.swift in Sources */,
+				144D0FC12A037919005DEDBE /* SettingsViewController.swift in Sources */,
+				149AA52429FF3E5D00C397F1 /* WaterDroplet.swift in Sources */,
+				149043DB2A05B23E00020B80 /* ScoreManager.swift in Sources */,
+				14619DDD29FF1F1C007BD9DE /* WateringCan.swift in Sources */,
+				14D05B6B29DC6C40002A01A5 /* AppDelegate.swift in Sources */,
+				1449EAF129FFF89E00BFBE3F /* Faucet.swift in Sources */,
+				14D05B6D29DC6C40002A01A5 /* SceneDelegate.swift in Sources */,
+				14EC9C812A013B4900B970EF /* GaugeNode.swift in Sources */,
+				14D05B7F29DC74A3002A01A5 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14D05B7029DC6C40002A01A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D05B7129DC6C40002A01A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14D05B7529DC6C43002A01A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D05B7629DC6C43002A01A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14D05B7929DC6C43002A01A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14D05B7A29DC6C43002A01A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14D05B7C29DC6C43002A01A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = plantSim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yis.plantSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		14D05B7D29DC6C43002A01A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = plantSim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yis.plantSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D05B6229DC6C40002A01A5 /* Build configuration list for PBXProject "plantSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D05B7929DC6C43002A01A5 /* Debug */,
+				14D05B7A29DC6C43002A01A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D05B7B29DC6C43002A01A5 /* Build configuration list for PBXNativeTarget "plantSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D05B7C29DC6C43002A01A5 /* Debug */,
+				14D05B7D29DC6C43002A01A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14D05B5F29DC6C40002A01A5 /* Project object */;
+}
