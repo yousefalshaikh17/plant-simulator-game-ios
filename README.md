@@ -5,7 +5,7 @@ The Plant Simulator game was originally created as an [Android project](https://
 
 ### Development & Features
 
-This game was developed for iOS using Swift. Key milestones included:
+This game was developed for iOS using Swift and SpriteKit. Key milestones included:
 
 - Applied best practices for mobile development on iOS.
 - Made use of the iOS feature set, including gestures to control gameplay, such as adjusting the amount of water poured.
