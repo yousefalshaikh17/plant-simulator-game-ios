@@ -1,4 +1,5 @@
 # Plant Simulator Game for iOS
+⚠️ Warning: This project is no longer being maintained due to no longer having access to a MacOS device.
 ### Overview
 
 The Plant Simulator game was originally created as an [Android project](https://github.com/yousefalshaikh17/plant-simulator-game-android) and later ported to iOS using Swift. The iOS version incorporates platform-specific features to enhance the user experience. It utilizes on-board accelerometers and follows Object-Oriented principles along with several Design Patterns to provide a clean and efficient architecture. The gameplay challenges the player to manage three plants by watering them appropriately, ensuring they do not dry out or drown. The game also features performance-based comments, offering feedback based on how well the player is managing the plants.
